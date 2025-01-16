@@ -129,7 +129,7 @@ struct ContentView: View {
                     
                     // 当前是否正在检测
                     if cameraManager.isDetecting {
-                        Text("breathe testing...")
+                        Text("breathe detecting...")
                             .font(.headline)
                             .foregroundColor(.white)
                             .padding(8)
